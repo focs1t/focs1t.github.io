@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .darkcyan{
     color: darkcyan;
+    font-size: 21px;
 }
 
 .header{
@@ -85,15 +86,19 @@ h6{
     font-size: 21px;
 }
 
+h7{
+    font-size: 21px;
+}
 
-.info p{
+
+.summary{
     font-size: 16px;
 }
 
 .flex-container{
     padding: 30px 250px;
     width: 100%;
-    height: 550px;
+    height: 750px;
     display: flex;
     flex-flow: row nowrap;
     overflow: auto;
@@ -102,9 +107,11 @@ h6{
 .info{
     flex-grow: 6;
     padding-right: 20px;
+    margin-right: 200px;
  }
 
 .showcase{
+    margin-left: -100px;
     flex-grow: 4;
 }
 
@@ -112,6 +119,12 @@ h6{
     background-color: gray;
     height: 3px;
 }
+
+.skill{
+    background-color: gray;
+    height: 2px;
+}
+
 iframe{
     padding-top: 10px;
 }
@@ -125,12 +138,20 @@ iframe{
 }
 
 .shortinfo{
+    margin-left: -105px;
     flex-grow: 5;
 }
 .navigation{
     padding-top: 20px;
-    flex-grow: 5;
+    flex-grow: 4;
+}
+.avatar{
+    flex-grow: 1;
 }
 li{
     padding-right: 20px;
+}
+
+.experience ul{
+    display: list-item;
 }
