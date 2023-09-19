@@ -38,16 +38,99 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*Code*/
 
-span{
+.darkcyan{
     color: darkcyan;
 }
 
-.heads p{
-    font-size: 20px;
+.header{
+    font-size: 21px;
+    background-color: lightgrey;
+    padding: 20px 80px;
+    line-height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+h1{
+    font-size: 35px;
 }
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.main{
-    color: white;
+
+.links{
+    margin-right: 30px;
+    font-size: 16px;
+}
+.dline{
+    line-height: 40px;
+}
+
+h2{
+    font-size: 21px;
+}
+
+h3{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+h5{
+    font-size: 21px;
+}
+
+h6{
+    font-size: 21px;
+}
+
+
+.info p{
+    font-size: 16px;
+}
+
+.flex-container{
+    padding: 30px 250px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: auto;
+}
+
+.info{
+    flex-grow: 6;
+    padding-right: 20px;
+ }
+
+.showcase{
+    flex-grow: 4;
+}
+
+.gray{
+    background-color: gray;
+    height: 3px;
+}
+iframe{
+    padding-top: 10px;
+}
+.none{
+    height: 10px;
+}
+
+.menu li{
+    display: inline;
+    font-size: 16px;
+}
+
+.shortinfo{
+    flex-grow: 5;
+}
+.navigation{
+    padding-top: 20px;
+    flex-grow: 5;
+}
+li{
+    padding-right: 20px;
 }
