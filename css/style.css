@@ -123,6 +123,7 @@ h7{
 .skill{
     background-color: gray;
     height: 2px;
+    max-width: 100px;
 }
 
 iframe{
@@ -154,4 +155,60 @@ li{
 
 .experience ul{
     display: list-item;
+}
+
+.hard-skills{
+    padding: 20px 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    text-align: center;
+}
+
+.soft-skills{
+    padding: 20px 20px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    text-align: center;
+}
+
+.s1{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.s2{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.s3{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.s4{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.s5{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.s6{
+    flex-grow: 1.6;
+    width: 100px;
+    margin-right: 30px;
 }
